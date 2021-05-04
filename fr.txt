@@ -27,7 +27,7 @@ xkb_symbols "basic" {
 
     key <AC01>	{ [         q,          Q,           at,  Greek_OMEGA ]	};
     key <AC10>	{ [         m,          M,           mu,    masculine ]	};
-    key <AC11>	{ [    ugrave,    percent, dead_circumflex, dead_caron]	};
+    key <AC11>	{ [    percent,    ugrave, dead_circumflex, dead_caron]	};    // Switched ù and % for convenience since % more used
     key <TLDE>	{ [twosuperior, asciitilde,     notsign,      notsign ]	};
 
     key <BKSL>	{ [  asterisk,         mu,   dead_grave,   dead_breve ]	};
